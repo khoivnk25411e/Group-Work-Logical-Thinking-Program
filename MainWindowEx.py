@@ -20,9 +20,7 @@ class MainWindowEx(Ui_MainWindow):
         self.lineEditResult.clear()
         self.lineEditA.setFocus()
     def process_solve(self):
-<<<<<<< HEAD
-        pass
-=======
         pass
 
->>>>>>> main
+
+
