@@ -1,6 +1,10 @@
 from MainWindow import Ui_MainWindow
 
 
+def ptb2(a,b,c):
+    pass
+
+
 class MainWindowEx(Ui_MainWindow):
     def setupUi(self, MainWindow):
         super().setupUi(MainWindow)
@@ -24,6 +28,7 @@ class MainWindowEx(Ui_MainWindow):
         a=int(self.lineEditA.text())
         b=int(self.lineEditB.text())
         c=int(self.lineEditC.text())
+        value=ptb2(a,b,c)
         pass
 
 
