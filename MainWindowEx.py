@@ -21,9 +21,9 @@ class MainWindowEx(Ui_MainWindow):
         self.lineEditResult.clear()
         self.lineEditA.setFocus()
     def process_solve(self):
-        a=float(self.lineEditA.text())
-        b=float(self.lineEditB.text())
-        c=float(self.lineEditC.text())
+        a=int(self.lineEditA.text())
+        b=int(self.lineEditB.text())
+        c=int(self.lineEditC.text())
         pass
 
 
