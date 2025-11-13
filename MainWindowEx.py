@@ -1,8 +1,5 @@
 from MainWindow import Ui_MainWindow
-
-
-def ptb2(a,b,c):
-    pass
+from ultis import ptb2
 
 
 class MainWindowEx(Ui_MainWindow):
@@ -28,5 +25,5 @@ class MainWindowEx(Ui_MainWindow):
         a=int(self.lineEditA.text())
         b=int(self.lineEditB.text())
         c=int(self.lineEditC.text())
-        value=str(ptb2(a,b,c))
-        self.lineEditResult.setText()
+        value=ptb2(a,b,c)
+        self.lineEditResult.setText(value)
