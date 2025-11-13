@@ -28,5 +28,5 @@ class MainWindowEx(Ui_MainWindow):
         a=int(self.lineEditA.text())
         b=int(self.lineEditB.text())
         c=int(self.lineEditC.text())
-        value=ptb2(a,b,c)
-        self.lineEditResult.setText(str(value))
+        value=str(ptb2(a,b,c))
+        self.lineEditResult.setText()
